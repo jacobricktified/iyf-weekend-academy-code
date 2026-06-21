@@ -1,0 +1,20 @@
+/* External CSS */
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
