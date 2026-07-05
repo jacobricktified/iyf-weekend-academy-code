@@ -9,3 +9,6 @@ const printNames = (names) => {
     console.log(names[i]);
   }
 };
+
+const names = ["Alice", "Bob", "Charlie", "David"];
+printNames(names);
