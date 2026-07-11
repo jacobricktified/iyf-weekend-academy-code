@@ -1,11 +1,12 @@
-// Event listener for the button
+// Button event listener
 const button = document.getElementById("btn");
 
 button.addEventListener("click", function () {
-    alert("Button was clicked!");
+    button.style.backgroundColor = "green";
+    button.style.color = "white";
 });
 
-// Event listener for the paragraph
+// Paragraph event listener
 const paragraph = document.getElementById("text");
 
 paragraph.addEventListener("mouseover", function () {
